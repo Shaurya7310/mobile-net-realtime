@@ -1,0 +1,59 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-size: 23px;
+  }
+  .heading_div
+  {
+    float:none;
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+    padding:10px;
+    font-family:'Zen Tokyo Zoo', cursive;
+
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+    
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+ .copy_right_footer{
+   position:fixed;
+   color:white;
+   bottom:0;
+   width:100%;
+   background-color:grey;
+   line-height: 2;
+   text-align: center;
+ }
+ canvas{
+   border:5px solid white;
+   border-radius: 20px;
+   box-shadow: 5px 5px 5px blue ;
+   margin-top:-500px;
+   animation-name: change-color;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  margin-top: 40px;
+   
+ }
+ @keyframes change-color{
+  0%{box-shadow:1px 1px 10px red;}
+  20%{box-shadow:1px 1px 10px yellow;}
+  40%{box-shadow:1px 1px 10px blue;}
+  60%{box-shadow:1px 1px 10px green;}
+  80%{box-shadow:1px 1px 10px orange;}
+  100%{box-shadow:1px 1px 10px rgb(177, 7, 245);}
+ }
+ .result_para_tag{
+   margin-left: 550px;
+ }
